@@ -29,17 +29,17 @@
 		<div class='row row-cols-1 row-cols-lg-2 my-4'>
 			<div class="form-group">
 			  <label for="heightInput">Ваш рост (м):</label>
-			  <input oninput='index()' type="number" class="form-control" id="heightInput" 	min="0.50" max="3" value="1.7">
+			  <input oninput='BMI()' type="number" class="form-control" id="heightInput" min="0.50" max="300" value="1.7">
 			</div>
 
 			<div class="form-group">
 			  <label for="massInput"> Ваш вес (кг):</label>
-			  <input oninput='index()' type="number" class="form-control" id="massInput" min="3" max="300" value="60">
+			  <input oninput='BMI()' type="number" class="form-control" id="massInput" min="3" max="500" value="60">
 			</div> 
 
 		</div>
 		  
-		  <button onclick="index()" class="btn btn-primary w-100">Рассчитать</button>
+		  <button onclick='BMI()' class="btn btn-primary w-100">Рассчитать</button>
 		
 		<!-- /Input Data Form -->
 				
